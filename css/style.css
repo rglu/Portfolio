@@ -190,13 +190,7 @@ input:focus {
 .projectssite__aboutme {
     grid-area: start;
     width: 198.9px;
-    margin-top: 40px;
 }
-
-/* .projectssite__aboutme__picture {
-    width: 198.9px;
-    margin-top: 40px;
-} */
 
 .bild {
     display: grid;
@@ -231,8 +225,10 @@ input:focus {
     "musicendani2 musicendani2 musicendani2 musicendani2 musicendani2 musicendani2"
 
     ". illustration2 illustration2 illustration2 illustration2 ."
+    ". illustration4 illustration4 illustration4 illustration4 ."
     ". illustration5 illustration5 illustration5 illustration5 ."
     "illustration2h illustration2h illustration2h illustration2h illustration2h illustration2h"
+    "illustration4h illustration4h illustration4h illustration4h illustration4h illustration4h"
     "illustration5h illustration5h illustration5h illustration5h illustration5h illustration5h"
 
     "sketchparis3 sketchparis3 sketchparis3 sketchparis3 sketchparis3 sketchparis3"
@@ -385,12 +381,20 @@ input:focus {
     grid-area: illustration2;
     padding: 0 20px 0 20px;
 }
+.illustration_04 {
+    grid-area: illustration4;
+    padding: 0 20px 0 20px;
+}
 .illustration_05 {
     grid-area: illustration5;
     padding: 0 20px 0 20px;
 }
 .illustration_02_h {
     grid-area: illustration2h;
+    padding: 0 40px 0 40px;
+}
+.illustration_04_h {
+    grid-area: illustration4h;
     padding: 0 40px 0 40px;
 }
 .illustration_05_h {
