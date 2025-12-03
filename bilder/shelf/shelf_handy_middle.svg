@@ -15,11 +15,11 @@
       }
     </style>
     <linearGradient id="Unbenannter_Verlauf_20" data-name="Unbenannter Verlauf 20" x1="21.75" y1="182" x2="21.75" y2="172" gradientTransform="translate(198.75 155.25) rotate(90)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#737373" stop-opacity=".74">
-      <stop offset="1" stop-color="#fff" stop-opacity="0">
+      <stop offset="0" stop-color="#737373" stop-opacity=".74"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect class="cls-3" x="17.75" y="194.25" width="8" height="43.51" transform="translate(-194.25 237.75) rotate(-90)">
-  <rect class="cls-2" x="16.75" y="155.25" width="10" height="43.51" transform="translate(-155.25 198.75) rotate(-90)">
-  <rect class="cls-1" x="6.75" y="175.25" width="30" height="43.51" transform="translate(-175.25 218.75) rotate(-90)">
+  <rect class="cls-3" x="17.75" y="194.25" width="8" height="43.51" transform="translate(-194.25 237.75) rotate(-90)"/>
+  <rect class="cls-2" x="16.75" y="155.25" width="10" height="43.51" transform="translate(-155.25 198.75) rotate(-90)"/>
+  <rect class="cls-1" x="6.75" y="175.25" width="30" height="43.51" transform="translate(-175.25 218.75) rotate(-90)"/>
 </svg>
