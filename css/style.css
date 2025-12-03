@@ -1,0 +1,1349 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+img {
+    display: block;
+}
+
+@font-face {
+    font-family: "ProFont-Regular";
+    src: url(/fonts/ProFont-Regular.otf);
+}
+
+@font-face {
+    font-family: "talk_schirft";
+    src: url(/fonts/talk_schrift.otf);
+}
+
+body {
+    margin: 0;
+    font-family: "ProFont-Regular";
+    font-size: 22px;
+}
+
+/* INPUT FIELD */
+
+input {
+    font-family: "talk_schrift";
+    color: white;
+    font-size: 200px;
+    text-align: center;
+    border: 0px;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    height: 1100px;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* NAV */
+
+.nav {
+    display: grid;
+    width: 100%;
+    padding: 24px 40px;
+    top: 0;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "home title title title luana luana";
+    background-color: white;
+    position: sticky;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.nav__home {
+    grid-area: home;
+    color: black;
+    text-decoration: none;
+}
+
+.nav__title {
+    grid-area: title;
+}
+
+.nav__luana {
+    grid-area: luana;
+    text-align: right;
+    color: black;
+    text-decoration: none;
+}
+
+/* TEXT PROJEKTSEITE */
+
+.text {
+    display: grid;
+    overflow-wrap: anywhere;
+    padding: 80px 40px 0px 40px;
+    gap: 0 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "tags description description description . ."
+    ". start start start start start";
+}
+
+.text__title {
+    display: none;
+    margin: 22px 0 0 0;
+}
+
+.text__tags {
+    grid-area: tags;
+    margin: 22px 0 0 0;
+}
+
+.text__description {
+    grid-area: description;
+    margin: 22px 0 0 0;
+}
+
+/* START PROJEKTSEITE */
+
+.start {
+    max-width: 100%;
+}
+
+.projectssite__zeitung {
+    grid-area: start;
+    width: 334.94px;
+    margin-top: 40px;
+}
+
+.projectssite__fontdesign__large {
+    grid-area: start;
+    width: 671.23px;
+    margin-top: 40px;
+    display: block;
+}
+.projectssite__fontdesign__medium {
+    grid-area: start;
+    width: 503.58px;
+    margin-top: 40px;
+    display: none;
+}
+.projectssite__fontdesign__small {
+    grid-area: start;
+    width: 325.94px;
+    margin-top: 40px;
+    display: none;
+}
+
+.projectssite__london {
+    grid-area: start;
+    width: 328.09px;
+    margin-top: 40px;
+}
+
+.projectssite__bwm {
+    grid-area: start;
+    width: 376.3px;
+    margin-top: 40px;
+}
+
+.projectssite__3d__large {
+    grid-area: start;
+    width: 582.3px;
+    margin-top: 40px;
+}
+
+.projectssite__illustration {
+    grid-area: start;
+    width: 370.16px;
+    margin-top: 40px;
+    max-width: 100%;
+}
+
+.projectssite__paris {
+    grid-area: start;
+    width: 171.13px;
+    margin-top: 40px;
+}
+
+.projectssite__musicposter {
+    grid-area: start;
+    width: 500px;
+    margin-top: 40px;
+}
+
+.projectssite__neuroposter {
+    grid-area: start;
+    width: 250px;
+    margin-top: 40px;
+}
+
+.projectssite__photo {
+    grid-area: start;
+    width: 196.4px;
+    margin-top: 40px;
+}
+
+.projectssite__aboutme {
+    grid-area: start;
+    width: 198.9px;
+    margin-top: 40px;
+}
+
+/* .projectssite__aboutme__picture {
+    width: 198.9px;
+    margin-top: 40px;
+} */
+
+.bild {
+    display: grid;
+    padding: 40px 0 0 0;
+    gap: 1px 1px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "london1 london1 london1 london1 london1 london1"
+    "london2 london2 london2 london2 london2 london2"
+    "london3 london3 london3 london3 london3 london3"
+    "london4 london4 london4 london4 london4 london4"
+    "london5 london5 london5 london5 london5 london5"
+    "london6 london6 london6 london6 london6 london6"
+    "london7 london7 london7 london7 london7 london7"
+    "london8 london8 london8 london8 london8 london8"
+    "london9 london9 london9 london9 london9 london9"
+
+    "zeitung5 zeitung5 zeitung5 zeitung5 zeitung5 zeitung5"
+    "zeitung7 zeitung7 zeitung7 zeitung7 zeitung7 zeitung7"
+    "zeitung6 zeitung6 zeitung6 zeitung6 zeitung6 zeitung6"
+    "zeitung1 zeitung1 zeitung1 zeitung1 zeitung1 zeitung1"
+    "zeitung2 zeitung2 zeitung2 zeitung2 zeitung2 zeitung2"
+    "zeitung3 zeitung3 zeitung3 zeitung3 zeitung3 zeitung3"
+    "zeitung4 zeitung4 zeitung4 zeitung4 zeitung4 zeitung4"
+    
+    "font1 font1 font1 font1 font1 font1"
+    "font2 font2 font2 font2 font2 font2"
+    
+    "musicvideo musicvideo musicvideo musicvideo musicvideo musicvideo"
+    ". musicend musicend musicendani musicendani ."
+    "musicend2 musicend2 musicend2 musicend2 musicend2 musicend2"
+    "musicendani2 musicendani2 musicendani2 musicendani2 musicendani2 musicendani2"
+
+    ". illustration2 illustration2 illustration2 illustration2 ."
+    ". illustration5 illustration5 illustration5 illustration5 ."
+    "illustration2h illustration2h illustration2h illustration2h illustration2h illustration2h"
+    "illustration5h illustration5h illustration5h illustration5h illustration5h illustration5h"
+
+    "sketchparis3 sketchparis3 sketchparis3 sketchparis3 sketchparis3 sketchparis3"
+    "sketchkloster4 sketchkloster4 sketchkloster4 sketchkloster4 sketchkloster4 sketchkloster4"
+    "sketch1 sketch1 sketch1 sketch1 sketch1 sketch1"
+    "sketch2 sketch2 sketch2 sketch2 sketch2 sketch2"
+    "sketch3 sketch3 sketch3 sketch3 sketch3 sketch3"
+    "sketch4 sketch4 sketch4 sketch4 sketch4 sketch4"
+    "sketch5 sketch5 sketch5 sketch5 sketch5 sketch5"
+    "sketch1handy sketch1handy sketch1handy sketch1handy sketch1handy sketch1handy"
+    "sketch2handy sketch2handy sketch2handy sketch2handy sketch2handy sketch2handy"
+    "sketch3handy sketch3handy sketch3handy sketch3handy sketch3handy sketch3handy"
+    "sketch4handy sketch4handy sketch4handy sketch4handy sketch4handy sketch4handy"
+    "sketch5handy sketch5handy sketch5handy sketch5handy sketch5handy sketch5handy"
+    
+    "rd1 rd1 rd1 rd1 rd1 rd1"
+    "rd2 rd2 rd2 rd2 rd2 rd2"
+    "rd3 rd3 rd3 rd3 rd3 rd3"
+    
+    ". bwm1 bwm1 bwm1 bwm1 ."
+    "bwm1h bwm1h bwm1h bwm1h bwm1h bwm1h"
+    "bwm2 bwm2 bwm2 bwm2 bwm2 bwm2"
+
+    "neurophotofull neurophotofull neurophotofull neurophotofull neurophotofull neurophotofull"
+    "neurophoto1 neurophoto1 neurophoto1 neurophoto1 neurophoto1 neurophoto1"
+    "neurophoto2 neurophoto2 neurophoto2 neurophoto2 neurophoto2 neurophoto2"
+    "neurophoto3 neurophoto3 neurophoto3 neurophoto3 neurophoto3 neurophoto3"
+    "neurophoto4 neurophoto4 neurophoto4 neurophoto4 neurophoto4 neurophoto4"
+    "neurophoto5 neurophoto5 neurophoto5 neurophoto5 neurophoto5 neurophoto5"
+
+    ". paris4 paris4 paris4 paris4 ."
+    ". paris2 paris2 paris2 paris2 ."
+    ". paris3 paris3 paris3 paris3 ."
+    ". paris5 paris5 paris5 paris5 ."
+    "paris4h paris4h paris4h paris4h paris4h paris4h"
+    "paris2h paris2h paris2h paris2h paris2h paris2h"
+    "paris3h paris3h paris3h paris3h paris3h paris3h"
+    "paris5h paris5h paris5h paris5h paris5h paris5h"
+    "paris8 paris8 paris8 paris8 paris8 paris8"
+    "paris6 paris6 paris6 paris6 paris6 paris6"
+    ". paris7 paris7 paris7 paris7 ."
+    "paris7h paris7h paris7h paris7h paris7h paris7h"
+    "paris1 paris1 paris1 paris1 paris1 paris1"
+    
+    ". neuroend neuroend neurovideo neurovideo ."
+    "neuroend2 neuroend2 neuroend2 neuroend2 neuroend2 neuroend2"
+    "neurovideo2 neurovideo2 neurovideo2 neurovideo2 neurovideo2 neurovideo2"
+    
+    ;
+}
+
+/* HANDY COMPUTER MULTI */
+
+.handy {
+    width: 100%;
+    display: none;
+}
+.computer {
+    width: 100%;
+}
+.multi {
+    width: 100%;
+}
+
+/* LONDON PROJEKTSEITE */
+
+.london__01 {
+    grid-area: london1;
+}
+.london__02 {
+    grid-area: london2;
+}
+.london__03 {
+    grid-area: london3;
+}
+.london__04 {
+    grid-area: london4;
+}
+.london__05 {
+    grid-area: london5;
+}
+.london__06 {
+    grid-area: london6;
+}
+.london__07 {
+    grid-area: london7;
+}
+.london__08 {
+    grid-area: london8;
+}
+.london__09 {
+    grid-area: london9;
+}
+
+/* ZEITUNG PROJEKTSEITE */
+
+.zeitung_01 {
+    grid-area: zeitung1;
+}
+.zeitung_02 {
+    grid-area: zeitung2;
+}
+.zeitung_03 {
+    grid-area: zeitung3;
+}
+.zeitung_04 {
+    grid-area: zeitung4;
+}
+.zeitung_05 {
+    grid-area: zeitung5;
+}
+.zeitung_06 {
+    grid-area: zeitung6;
+}
+.zeitung_07 {
+    grid-area: zeitung7;
+}
+.zeitung_08 {
+    grid-area: zeitung8;
+}
+
+/* FONTDESIGN PROJEKTSEITE */
+
+#inputfield {
+    grid-area: font1;
+}
+.fontdesign_02 {
+    grid-area: font2;
+}
+
+/* MUSICPOSTER PROJEKTSEITE */
+
+.musicposter__video {
+    grid-area: musicvideo;
+}
+.musicposter__endani {
+    grid-area: musicendani;
+}
+.musicposter__end {
+    grid-area: musicend;
+}
+.musicposter__endani2 {
+    grid-area: musicendani2;
+}
+.musicposter__end2 {
+    grid-area: musicend2;
+}
+
+/* ILLUSTRATION PROJEKTSEITE */
+
+.illustration_02 {
+    grid-area: illustration2;
+    padding: 0 20px 0 20px;
+}
+.illustration_05 {
+    grid-area: illustration5;
+    padding: 0 20px 0 20px;
+}
+.illustration_02_h {
+    grid-area: illustration2h;
+    padding: 0 40px 0 40px;
+}
+.illustration_05_h {
+    grid-area: illustration5h;
+    padding: 0 40px 0 40px;
+}
+
+/* SKIZZE PROJEKTSEITE */
+
+.sketch_paris_03 {
+    grid-area: sketchparis3;
+}
+.sketch_kloster_04 {
+    grid-area: sketchkloster4;
+}
+.sketch_01 {
+    grid-area: sketch1;
+}
+.sketch_02 {
+    grid-area: sketch2;
+}
+.sketch_03 {
+    grid-area: sketch3;
+}
+.sketch_04 {
+    grid-area: sketch4;
+}
+.sketch_05 {
+    grid-area: sketch5;
+}
+
+/* 3D PROJEKTSEITE */
+
+.rd__01 {
+    grid-area: rd1;
+}
+.rd__02 {
+    grid-area: rd2;
+}
+.rd__03 {
+    grid-area: rd3;
+}
+
+/* BWM PROJEKTSEITE */
+
+.bwm_01 {
+    grid-area: bwm1;
+    padding: 0 20px 0 20px;
+}
+.bwm_02 {
+    grid-area: bwm2;
+}
+.bwm_01_h {
+    grid-area: bwm1h;
+    padding: 0 40px 0 40px;
+}
+
+/* NEUROPHOTO PROJEKTSEITE */
+
+.neurophoto__full {
+    grid-area: neurophotofull;
+}
+.neurophoto__01 {
+    grid-area: neurophoto1;
+}
+.neurophoto__02 {
+    grid-area: neurophoto2;
+}
+.neurophoto__03 {
+    grid-area: neurophoto3;
+}
+.neurophoto__04 {
+    grid-area: neurophoto4;
+}
+.neurophoto__05 {
+    grid-area: neurophoto5;
+}
+
+/* PARIS PROJEKTSEITE */
+
+.paris_01 {
+    grid-area: paris1;
+}
+.paris_06 {
+    grid-area: paris6;
+    padding: 0 0 0 40px;
+}
+.paris_08 {
+    grid-area: paris8;
+}
+.paris_07 {
+    grid-area: paris7;
+}
+.paris_07_h {
+    grid-area: paris7h;
+    padding: 0 40px 0 40px;
+}
+.paris_02 {
+    grid-area: paris2;
+}
+.paris_03 {
+    grid-area: paris3;
+}
+.paris_04 {
+    grid-area: paris4;
+}
+.paris_05 {
+    grid-area: paris5;
+}
+.paris_02_h {
+    grid-area: paris2h;
+    padding: 0 40px 0 40px;
+}
+.paris_03_h {
+    grid-area: paris3h;
+    padding: 0 40px 0 40px;
+}
+.paris_04_h {
+    grid-area: paris4h;
+    padding: 0 40px 0 40px;
+}
+.paris_05_h {
+    grid-area: paris5h;
+    padding: 0 40px 0 40px;
+}
+
+/* NEUROPOSTER PROJEKTSEITE */
+
+.neuroposter__video {
+    grid-area: neurovideo;
+}
+.neuroposter__end {
+    grid-area: neuroend;
+}
+.neuroposter__video2 {
+    grid-area: neurovideo2;
+}
+.neuroposter__end2 {
+    grid-area: neuroend2;
+}
+
+/* PROJECTS >> 298 shelf height */
+
+.projects__padding {
+    padding: 40px;
+}
+
+.projects {
+
+    background-image: 
+        url(/bilder/shelf/new_shelf_right.svg),
+        url(/bilder/shelf/new_shelf_left.svg),
+        url(/bilder/shelf/shelf_middle.svg);
+
+    background-repeat: 
+        repeat-y,
+        repeat-y, 
+        repeat;
+
+    background-position: 
+        right top,
+        left top,
+        100% top;
+
+    background-size: 
+        36px 298px,
+        36px 298px,
+        43.5065px 298px;    
+}
+
+.projects__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 90px 0px 90px;
+    justify-content: left;
+}
+
+.projects__zeitung {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    height: 290px;
+    display: block;
+}
+
+.projects__fontdesign {
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    height: 290px;
+    display: block;
+}
+
+.projects__fontdesign__large {
+    display: block;
+}
+
+.projects__fontdesign__medium {
+    display: none;
+}
+
+.projects__fontdesign__small {
+    display: none;
+}
+
+.projects__3d {
+    margin-right: 40px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    height: 290px;
+    display: block;
+}
+
+.projects__3d__large {
+    display: none;
+}
+
+.projects__3d__medium {
+    display: block;
+}
+
+.projects__3d__small {
+    display: none;
+}
+
+.projects__illustration {
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    height: 290px;
+    display: block;
+}
+
+.projects__london {
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    height: 290px;
+    display: block;
+}
+
+.projects__musicposter {
+    position: relative;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.projects__musicposter__part2 {
+    height: 290px;
+    width: auto;
+    margin-bottom: 8px;
+}
+
+.projects__musicposter__part1 {
+    top: 0;
+    transform: translateY(-100%);
+    width: 100%;
+    position: absolute;
+}
+
+.projects__musicposter__part3 {
+    bottom: 0;
+    transform: translateY(100%);
+    width: 100%;
+    position: absolute;
+}
+
+.projects__neuroposter {
+    margin-right: 20px;
+    margin-left: 0px;
+    display: block;
+    position: relative;
+}
+
+.projects__neuroposter__part2 {
+    height: 290px;
+    width: auto;
+    margin-bottom: 8px;
+}
+
+.projects__neuroposter__part1 {
+    top: 0;
+    transform: translateY(-100%);
+    width: 100%;
+    position: absolute;
+}
+
+.projects__neuroposter__part3 {
+    bottom: 0;
+    transform: translateY(100%);
+    width: 100%;
+    position: absolute;
+}
+
+.leerstelle__01 {
+    height: 290px;
+    margin-bottom: 8px;
+    display: none;
+}
+
+.leerstelle__02 {
+    height: 290px;
+    margin-bottom: 8px;
+    display: none;
+}
+
+.projects__neurophoto {
+    margin-right: 20px;
+    margin-left: 300px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    height: 290px;
+    display: block;
+}
+
+.projects__paris {
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    height: 290px;
+    display: block;
+}
+
+.projects__sketches {
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    height: 290px;
+    display: block;
+}
+
+.projects__bwm {
+    margin-right: 300px;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 8;
+    height: 290px;
+    display: block;
+}
+
+.projects__luanarosenberg {
+    margin-right: 40px;
+    margin-left: 20px;
+    display: block;
+    position: relative;
+}
+
+.projects__luanarosenberg__handy {
+    margin-right: 20px;
+    margin-left: 20px;
+    display: none;
+    position: relative;
+}
+
+.projects__luanarosenberg__part1 {
+    margin-bottom: 8px;
+    height: 290px;
+}
+
+.projects__luanarosenberg__part2 {
+    bottom: 0;
+    transform: translateY(100%);
+    width: 100%;
+    position: absolute;
+}
+
+.projectssite__luanarosenberg__part2 {
+    bottom: 0;
+    transform: translateY(100%);
+    width: 220.53px;
+    position: absolute;
+}
+
+.projects__qbert1 {
+    margin-right: 100px;
+    margin-top: 190px;
+    margin-bottom: 8px;
+    height: 100px;
+    display: block;
+}
+
+.projects__qbert2 {
+    margin-right: 100px;
+    margin-top: 190px;
+    margin-bottom: 8px;
+    height: 100px;
+    display: block;
+}
+
+.projects__qbert3 {
+    margin-right: 100px;
+    margin-top: 190px;
+    margin-bottom: 8px;
+    height: 100px;
+    display: block;
+}
+
+/* MEDIA */
+
+@media all and (max-width: 799px) {
+    .nav__title {
+        display: none;
+    }
+    .nav {
+        grid-template-areas:
+        "home home luana luana luana luana";
+    }
+
+    .text__title {
+        display: grid;
+        grid-area: title;
+    }
+
+    .text {
+        grid-template-areas:
+        "title title title title title title"
+        "tags tags tags tags tags tags"
+        "description description description description description description"
+        "start start start start start start";
+        padding-top: 40px;
+    }
+
+    .start {
+        margin: 40px auto 0 auto;
+    }
+
+    .sketch_01 {
+        display: none;
+    }
+    .sketch_02 {
+        display: none;
+    }
+    .sketch_03 {
+        display: none;
+    }
+    .sketch_04 {
+        display: none;
+    }
+    .sketch_05 {
+        display: none;
+    }
+
+    .sketch_01_handy {
+        display: block;
+    }
+    .sketch_02_handy {
+        display: block;
+    }
+    .sketch_03_handy {
+        display: block;
+    }
+    .sketch_04_handy {
+        display: block;
+    }
+    .sketch_05_handy {
+        display: block;
+    }
+
+    .computer {
+        display: none;
+    }
+
+    .handy {
+        display: block;
+    }
+}
+
+@media all and (max-width: 428px) {
+  .projects {
+
+    background-image: 
+        url(/bilder/shelf/shelf_handy_right.svg),
+        url(/bilder/shelf/shelf_handy_left.svg),
+        url(/bilder/shelf/shelf_handy_middle.svg);
+
+    background-repeat: 
+        repeat-y,
+        repeat-y, 
+        repeat;
+
+    background-position: 
+        right top,
+        left top,
+        100% top;
+
+    background-size: 
+        36px 220px,
+        36px 220px,
+        43.5065px 220px;    
+    }
+
+    .projects__project {
+        height: 212px;
+    }
+
+    .projects__musicposter__part2 {
+        height: 212px;
+    }
+
+    .projects__neuroposter__part2 {
+        height: 212px;
+    }
+
+    .projects__luanarosenberg__part1 {
+        height: 212px;
+    }
+
+}
+
+@media all and (hover: none) {
+    .nav__title {
+        display: none;
+    }
+    .nav {
+        grid-template-areas:
+        "home home luana luana luana luana";
+    }
+}
+
+/* REGAL ANPASSUNG */
+
+@media all and (max-width: 1694px) {
+    .projects__zeitung {
+        margin-right: 20px;
+    }
+
+    .projects__fontdesign__large {
+        display: none;
+    }
+
+    .projects__fontdesign__small {
+        display: none;
+    }
+
+    .projects__fontdesign__medium {
+        display: block;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 1682px) {
+
+    .projects__neurophoto {
+        margin-left: 450px;
+    }
+}
+
+@media all and (max-width: 1679px) {
+
+    .projects__3d__medium {
+        margin-left: 40px;
+    }
+    .projects__bwm {
+        margin-right: 0px;
+    }
+    .projects__neuroposter {
+        margin-left: 200px;
+    }
+    .projects__neurophoto {
+        margin-left: 650px;
+    }
+    .projects__luanarosenberg {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 1654px) {
+
+    .projects__3d__medium {
+        margin-left: 40px;
+    }
+}
+
+@media all and (max-width: 1602px) {
+    .projects__zeitung {
+        margin-right: 20px;
+    }
+
+    .projects__fontdesign__medium {
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+}
+
+@media all and (max-width: 1595px) {
+    .projects__neuroposter {
+        margin-left: 40px;
+    }
+    .projects__neurophoto {
+        margin-left: 700px;
+    }
+}
+
+@media all and (max-width: 1552px) {
+    .projects__3d__medium {
+        display: none;
+    }
+    .projects__3d__large {
+        display: block;
+        margin-left: 40px;
+    }
+    .projects__neurophoto {
+        margin-left: 500px;
+    }
+}
+
+@media all and (max-width: 1516px) {
+    .projects__zeitung {
+        margin-right: 20px;
+    }
+
+    .projects__fontdesign__large {
+        display: none;
+    }
+    
+    .projects__fontdesign__medium {
+        display: none;
+    }
+
+    .projects__fontdesign__small {
+        display: block;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .projects__illustration {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 1408px) {
+    .projects__illustration {
+        margin-right: 0;
+    }
+    .projects__3d__large {
+        display: none;
+    }
+    .projects__3d__medium {
+        display: block;
+        margin-left: 20px;
+    }
+    .projects__3d__small {
+        display: none;
+    }
+}
+
+@media all and (max-width: 1394px) {
+    .projects__illustration {
+        margin-right: 20px;
+    }
+    .projects__3d__large {
+        display: none;
+    }
+    .projects__3d__medium {
+        display: none;
+    }
+    .projects__3d__small {
+        display: block;
+        margin-left: 40px;
+        margin-right: 0;
+    }
+    .projects__neurophoto {
+        margin-left: 150px;
+        margin-right: 0;
+    }
+    .projects__bwm {
+        margin-right: 350px;
+    }
+}
+
+@media all and (max-width: 1373px) {
+    .projects__bwm {
+        margin-right: 40px;
+    }
+    .projects__neurophoto {
+        margin-left: 0;
+        margin-right: 250px;
+    }
+    .projects__paris {
+        margin-left: 200px;
+    }
+}
+
+@media all and (max-width: 1348px) {
+    .projects__paris {
+        margin-left: 550px;
+    }
+    .projects__neuroposter {
+        margin-left: 140px;
+    }
+    .projects__luanarosenberg {
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width: 1341px) {
+    .projects__neuroposter {
+        margin-left: 140px;
+    }
+    .projects__neurophoto {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+   
+}
+
+@media all and (max-width: 1338px) {
+    .projects__zeitung {
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+
+    .projects__neurophoto {
+        margin-left: 0px;
+    }
+
+    .projects__london {
+        margin-right: 40px;
+    }
+
+    .projects__fontdesign__large {
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+    .projects__fontdesign__large {
+        display: block;
+    }
+
+    .projects__fontdesign__medium {
+        display: none;
+    }
+
+    .projects__fontdesign__small {
+        display: none;
+    }
+}
+
+@media all and (max-width: 1322px) {
+    .projects__neurophoto {
+        margin-left: 0px;
+    }
+    .projects__luanarosenberg {
+        margin-left: 0;
+        margin-right: 40px;
+    }
+}
+
+@media all and (max-width: 1314px) {
+    .projects__neurophoto {
+        margin-left: 500px;
+    }
+    .projects__neuroposter {
+        margin-left: 0px;
+    }
+    .projects__paris {
+        margin-left: 30px;
+    }
+    .projects__luanarosenberg {
+        display: none;
+    }
+    .projects__luanarosenberg__handy {
+        display: block;
+    }
+    .projects__paris {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 1302px) {
+    .projects__3d__large {
+        display: none;
+        margin-right: 0;
+    }
+
+    .projects__3d__small {
+        display: block;
+        margin-right: 0;
+        margin-left: 40px;
+    }
+}
+
+@media all and (max-width: 1155px) {
+    .projects__neurophoto {
+        margin-left: 610px;
+    }
+    .projects__paris {
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+    .projects__bwm {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 1114px) {
+    .projects__container {
+        justify-content: center;
+        margin: 0 40px 0 40px;
+    }
+    .projects__project  {
+        padding: 0 5px 0 5px;
+        margin: 0 15px 8px 15px;
+        object-fit: contain;
+        object-position: center bottom;
+        width: 100%;
+    }
+    .projects__fontdesign__large {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .projects__london {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .projects__zeitung {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    .projects__neurophoto {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    .projects__paris {
+        margin-left: 10px;
+    }
+    .projects__neuroposter {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .leerstelle__01 {
+    display: block;
+    margin-right: 200px;
+    opacity: 0;
+    }
+    .projects__luanarosenberg {
+        display: block;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    .projects__luanarosenberg__handy {
+        display: none;
+    }
+}
+
+@media all and (max-width: 976px) {
+    .leerstelle__01 {
+    display: block;
+    margin-right: 200px;
+    opacity: 0;
+   }
+}
+
+@media all and (max-width: 838px) {
+
+    .projects__project  {
+        margin: 0 10px 8px 10px;
+    }
+}
+
+@media all and (max-width: 846px) {
+   .projects__fontdesign__large {
+        display: none;
+    }
+
+    .projects__fontdesign__medium {
+        display: block;
+    }
+
+    .projects__fontdesign__small {
+        display: none;
+    } 
+}
+
+@media all and (max-width: 793px) {
+   .projects__luanarosenberg {
+    display: none;
+   }
+   .projects__luanarosenberg__handy {
+    display: block;
+   }
+   .projects__paris {
+    margin-left: 10px;
+    }
+    .projects__neurophoto {
+    margin-right: 10px;
+    }
+
+   /* .leerstelle__02 {
+    display: block;
+    margin-right: 200px;
+    opacity: 0;
+   } */
+}
+
+@media all and (max-width: 668px) {
+   .projects__fontdesign__large {
+        display: none;
+    }
+
+    .projects__fontdesign__medium {
+        display: none;
+    }
+
+    .projects__fontdesign__small {
+        display: block;
+    } 
+}
+
+@media all and (max-width: 557px) {
+   .projects__paris {
+        margin-right: 10px;
+   }
+   .projects__neurophoto {
+        margin-left: 10px;
+   }
+}
+
+@media all and (max-width: 557px) {
+   .projects__project {
+        margin-left: 0;
+        margin-right: 0;
+   }
+}
+
+/* ??? */
+
+@media all and (min-width: 1728px) {
+    .projects {
+        width: 1648px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* PROJEKTSEITE */
+
+@media all and (max-width: 1096px) {
+    .projectssite__fontdesign__large {
+        display: none;
+    }
+    .projectssite__fontdesign__medium {
+        display: block;
+    }
+}
+
+/* Hallo Luana<3 Grüsse Emma */
