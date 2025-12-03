@@ -263,19 +263,22 @@ input:focus {
     "neurophoto4 neurophoto4 neurophoto4 neurophoto4 neurophoto4 neurophoto4"
     "neurophoto5 neurophoto5 neurophoto5 neurophoto5 neurophoto5 neurophoto5"
 
+    "paris6 paris6 paris6 paris6 paris6 paris6"
     ". paris4 paris4 paris4 paris4 ."
     ". paris2 paris2 paris2 paris2 ."
-    ". paris3 paris3 paris3 paris3 ."
-    ". paris5 paris5 paris5 paris5 ."
+    ". paris10 paris10 paris10 paris10 ."
+    /* ". paris3 paris3 paris3 paris3 ." */
+    /* ". paris5 paris5 paris5 paris5 ." */
     "paris4h paris4h paris4h paris4h paris4h paris4h"
     "paris2h paris2h paris2h paris2h paris2h paris2h"
-    "paris3h paris3h paris3h paris3h paris3h paris3h"
-    "paris5h paris5h paris5h paris5h paris5h paris5h"
+    "paris10h paris10h paris10h paris10h paris10h paris10h"
+    /* "paris3h paris3h paris3h paris3h paris3h paris3h" */
+    /* "paris5h paris5h paris5h paris5h paris5h paris5h" */
     "paris8 paris8 paris8 paris8 paris8 paris8"
-    "paris6 paris6 paris6 paris6 paris6 paris6"
+    "paris9 paris9 paris9 paris9 paris9 paris9"
     ". paris7 paris7 paris7 paris7 ."
     "paris7h paris7h paris7h paris7h paris7h paris7h"
-    "paris1 paris1 paris1 paris1 paris1 paris1"
+    /* "paris1 paris1 paris1 paris1 paris1 paris1" */
     
     ". neuroend neuroend neurovideo neurovideo ."
     "neuroend2 neuroend2 neuroend2 neuroend2 neuroend2 neuroend2"
@@ -473,15 +476,24 @@ input:focus {
 
 /* PARIS PROJEKTSEITE */
 
-.paris_01 {
+/* .paris_01 {
     grid-area: paris1;
-}
+} */
 .paris_06 {
     grid-area: paris6;
-    padding: 0 0 0 40px;
+    padding: 0 40px 0 0;
 }
 .paris_08 {
     grid-area: paris8;
+}
+.paris_09 {
+    grid-area: paris9;
+}
+.paris_10 {
+    grid-area: paris10;
+}
+.paris_10_h {
+    grid-area: paris10h;
 }
 .paris_07 {
     grid-area: paris7;
