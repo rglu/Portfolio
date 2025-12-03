@@ -773,6 +773,23 @@ input:focus {
     position: absolute;
 }
 
+.projects__aboutme {
+    display: block;
+    position: relative;
+}
+
+.projects__aboutme__part1 {
+    margin-bottom: 8px;
+    height: 290px;
+}
+
+.projects__aboutme__part2 {
+    bottom: 0;
+    transform: translateY(100%);
+    width: 220.53px;
+    position: absolute;
+}
+
 .projectssite__luanarosenberg__part2 {
     bottom: 0;
     transform: translateY(100%);
