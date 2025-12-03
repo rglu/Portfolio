@@ -18,7 +18,7 @@ img {
 
 @font-face {
     font-family: "talk_schirft";
-    src: url(../fonts/talk_schrift.otf);
+    src: url(../fonts/talk_schrift.woff);
 }
 
 body {
