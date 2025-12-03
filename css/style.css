@@ -13,12 +13,12 @@ img {
 
 @font-face {
     font-family: "ProFont-Regular";
-    src: url(/fonts/ProFont-Regular.otf);
+    src: url(fonts/ProFont-Regular.otf);
 }
 
 @font-face {
     font-family: "talk_schirft";
-    src: url(/fonts/talk_schrift.otf);
+    src: url(fonts/talk_schrift.otf);
 }
 
 body {
@@ -543,9 +543,9 @@ input:focus {
 .projects {
 
     background-image: 
-        url(/bilder/shelf/new_shelf_right.svg),
-        url(/bilder/shelf/new_shelf_left.svg),
-        url(/bilder/shelf/shelf_middle.svg);
+        url(bilder/shelf/new_shelf_right.svg),
+        url(bilder/shelf/new_shelf_left.svg),
+        url(bilder/shelf/shelf_middle.svg);
 
     background-repeat: 
         repeat-y,
@@ -871,9 +871,9 @@ input:focus {
   .projects {
 
     background-image: 
-        url(/bilder/shelf/shelf_handy_right.svg),
-        url(/bilder/shelf/shelf_handy_left.svg),
-        url(/bilder/shelf/shelf_handy_middle.svg);
+        url(bilder/shelf/shelf_handy_right.svg),
+        url(bilder/shelf/shelf_handy_left.svg),
+        url(bilder/shelf/shelf_handy_middle.svg);
 
     background-repeat: 
         repeat-y,
