@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 43.51 220">
+<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 44 220">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
   <defs>
     <style>
-      .cls-1 {
+      .st0 {
+        fill: url(#Unbenannter_Verlauf);
+      }
+
+      .st1 {
         fill: #ddd;
       }
 
-      .cls-2 {
-        fill: url(#Unbenannter_Verlauf_20);
-      }
-
-      .cls-3 {
+      .st2 {
         fill: #6a6a6a;
       }
     </style>
-    <linearGradient id="Unbenannter_Verlauf_20" data-name="Unbenannter Verlauf 20" x1="21.75" y1="182" x2="21.75" y2="172" gradientTransform="translate(198.75 155.25) rotate(90)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="Unbenannter_Verlauf" data-name="Unbenannter Verlauf" x1="22" y1="37.53" x2="22" y2="47.53" gradientTransform="translate(0 219.53) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#737373" stop-opacity=".74"/>
       <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect class="cls-3" x="17.75" y="194.25" width="8" height="43.51" transform="translate(-194.25 237.75) rotate(-90)"/>
-  <rect class="cls-2" x="16.75" y="155.25" width="10" height="43.51" transform="translate(-155.25 198.75) rotate(-90)"/>
-  <rect class="cls-1" x="6.75" y="175.25" width="30" height="43.51" transform="translate(-175.25 218.75) rotate(-90)"/>
+  <rect class="st2" x="-.31" y="212" width="44.62" height="8"/>
+  <rect class="st0" x="-.31" y="172" width="44.62" height="10"/>
+  <rect class="st1" x="-.31" y="182" width="44.62" height="30"/>
 </svg>
