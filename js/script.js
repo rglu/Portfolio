@@ -24,7 +24,9 @@ document.querySelector(".projects__paris").addEventListener("mouseover", ()=>{na
 
 document.querySelector(".projects__sketches").addEventListener("mouseover", ()=>{navTitle.textContent="SKIZZEN"})
 
-document.querySelector("#luana").addEventListener("mouseover", ()=>{navTitle.textContent="ABOUT ME"})
+document.querySelector("#aboutme").addEventListener("mouseover", ()=>{navTitle.textContent="ABOUT ME"})
+
+document.querySelector("#aboutme2").addEventListener("mouseover", ()=>{navTitle.textContent="ABOUT ME"})
 
 // QBERT
 
