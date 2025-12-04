@@ -213,7 +213,7 @@ input:focus {
 .bild {
     display: grid;
     padding: 40px 0 0 0;
-    gap: 1px 1px;
+    gap: 0 1px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "london1 london1 london1 london1 london1 london1"
@@ -304,12 +304,15 @@ input:focus {
 .handy {
     width: 100%;
     display: none;
+    margin-top: 1px;
 }
 .computer {
     width: 100%;
+    margin-top: 1px;
 }
 .multi {
     width: 100%;
+    margin-top: 1px;
 }
 
 /* LONDON PROJEKTSEITE */
