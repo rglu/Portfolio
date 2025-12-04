@@ -4,9 +4,9 @@ const navTitle = document.querySelector(".nav__title");
 
 document.querySelector(".projects__zeitung").addEventListener("mouseover", ()=>{navTitle.textContent="EIN ALLTÄGLICHER BEGLEITER"})
 
-document.querySelector(".projects__fontdesign").addEventListener("mouseover", ()=>{navTitle.textContent="KONSEQUENT KONSTRUIERT"})
+document.querySelector("#fontdesign").addEventListener("mouseover", ()=>{navTitle.textContent="KONSEQUENT KONSTRUIERT"})
 
-document.querySelector(".projects__3d").addEventListener("mouseover", ()=>{navTitle.textContent="FRAGMENTE EINES BUCHSTABENS"})
+document.querySelector("#rd").addEventListener("mouseover", ()=>{navTitle.textContent="FRAGMENTE EINES BUCHSTABENS"})
 
 document.querySelector(".projects__bwm").addEventListener("mouseover", ()=>{navTitle.textContent="WHERE PRECISION AND PASSION MEET"})
 
@@ -24,7 +24,7 @@ document.querySelector(".projects__paris").addEventListener("mouseover", ()=>{na
 
 document.querySelector(".projects__sketches").addEventListener("mouseover", ()=>{navTitle.textContent="SKIZZEN"})
 
-document.querySelector(".projects__luanarosenberg").addEventListener("mouseover", ()=>{navTitle.textContent="ABOUT ME"})
+document.querySelector("#luana").addEventListener("mouseover", ()=>{navTitle.textContent="ABOUT ME"})
 
 // QBERT
 
