@@ -190,6 +190,24 @@ input:focus {
 .projectssite__aboutme {
     grid-area: start;
     width: 198.9px;
+    margin-top: 0;
+}
+
+.projects__aboutme {
+    display: block;
+    position: relative;
+}
+
+.projects__aboutme__part1 {
+    margin-bottom: 8px;
+    height: 290px;
+}
+
+.projects__aboutme__part2 {
+    bottom: 0;
+    transform: translateY(100%);
+    width: 220.53px;
+    position: absolute;
 }
 
 .bild {
@@ -779,54 +797,6 @@ input:focus {
     transform: translateY(100%);
     width: 100%;
     position: absolute;
-}
-
-.projects__aboutme {
-    display: block;
-    position: relative;
-}
-
-.projects__aboutme__part1 {
-    margin-bottom: 8px;
-    height: 290px;
-}
-
-.projects__aboutme__part2 {
-    bottom: 0;
-    transform: translateY(100%);
-    width: 220.53px;
-    position: absolute;
-}
-
-.projectssite__luanarosenberg__part2 {
-    bottom: 0;
-    transform: translateY(100%);
-    width: 220.53px;
-    position: absolute;
-}
-
-.projects__qbert1 {
-    margin-right: 100px;
-    margin-top: 190px;
-    margin-bottom: 8px;
-    height: 100px;
-    display: block;
-}
-
-.projects__qbert2 {
-    margin-right: 100px;
-    margin-top: 190px;
-    margin-bottom: 8px;
-    height: 100px;
-    display: block;
-}
-
-.projects__qbert3 {
-    margin-right: 100px;
-    margin-top: 190px;
-    margin-bottom: 8px;
-    height: 100px;
-    display: block;
 }
 
 /* MEDIA */
