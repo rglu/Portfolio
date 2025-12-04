@@ -290,6 +290,8 @@ input:focus {
     "paris8 paris8 paris8 paris8 paris8 paris8"
     "paris9 paris9 paris9 paris9 paris9 paris9"
     
+    "neuromak1 neuromak1 neuromak1 neuromak1 neuromak1 neuromak1"
+    "neuromak2 neuromak2 neuromak2 neuromak2 neuromak2 neuromak2"
     ". neuroend neuroend neurovideo neurovideo ."
     "neuroend2 neuroend2 neuroend2 neuroend2 neuroend2 neuroend2"
     "neurovideo2 neurovideo2 neurovideo2 neurovideo2 neurovideo2 neurovideo2"
@@ -554,6 +556,10 @@ input:focus {
 
 /* NEUROPOSTER PROJEKTSEITE */
 
+.neuroposter__makingof__01 {
+    grid-area: neuromak1;
+    margin-top: 0;
+}
 .neuroposter__video {
     grid-area: neurovideo;
 }
