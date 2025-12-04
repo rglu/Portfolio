@@ -39,6 +39,7 @@ input {
     margin-top: 0px;
     height: 1100px;
     border: none;
+    padding: 0;
 }
 
 input:focus {
