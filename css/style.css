@@ -236,6 +236,7 @@ input:focus {
     
     "font1 font1 font1 font1 font1 font1"
     "font2 font2 font2 font2 font2 font2"
+    "font2h font2h font2h font2h font2h font2h"
     
     "musicvideo musicvideo musicvideo musicvideo musicvideo musicvideo"
     ". musicend musicend musicendani musicendani ."
@@ -376,6 +377,10 @@ input:focus {
 }
 .fontdesign_02 {
     grid-area: font2;
+}
+.fontdesign_02_h {
+    grid-area: font2h;
+    padding: 0 40px 0 40px;
 }
 
 /* MUSICPOSTER PROJEKTSEITE */
