@@ -38,6 +38,7 @@ input {
     background-color: black;
     margin-top: 0px;
     height: 1100px;
+    border: none;
 }
 
 input:focus {
@@ -194,11 +195,11 @@ input:focus {
 
 .projectssite__aboutme {
     grid-area: start;
-    width: 198.9px;
-    margin-top: 0;
+    width: 277px;
+    margin-top: 40px;
 }
 
-.projects__aboutme {
+/* .projects__aboutme {
     display: block;
     position: relative;
 }
@@ -213,7 +214,7 @@ input:focus {
     transform: translateY(100%);
     width: 220.53px;
     position: absolute;
-}
+} */
 
 .bild {
     display: grid;
