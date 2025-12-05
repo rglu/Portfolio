@@ -33,8 +33,7 @@ input {
     color: white;
     font-size: 200px;
     text-align: center;
-    /* border: 0px; */
-    padding: 0 40px;
+    border: 0px;
     width: 100%;
     background-color: black;
     margin-top: 0px;
@@ -849,8 +848,8 @@ input:focus {
         margin: 40px auto 0 auto;
     }
 
-    .input {
-        font-size: 100px;
+    input {
+        font-size: 150px;
     }
 
     .sketch_01 {
