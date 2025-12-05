@@ -390,6 +390,8 @@ input:focus {
 .fontdesign_02_h {
     grid-area: font2h;
     padding: 0 40px 0 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* MUSICPOSTER PROJEKTSEITE */
