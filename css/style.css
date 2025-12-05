@@ -849,6 +849,10 @@ input:focus {
         margin: 40px auto 0 auto;
     }
 
+    .input {
+        font-size: 100px;
+    }
+
     .sketch_01 {
         display: none;
     }
