@@ -441,6 +441,8 @@ input:focus {
 .illustration_05 {
     grid-area: illustration5;
     padding: 0 20px 0 20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 .illustration_02_h {
     grid-area: illustration2h;
@@ -453,6 +455,8 @@ input:focus {
 .illustration_05_h {
     grid-area: illustration5h;
     padding: 0 40px 0 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /* SKIZZE PROJEKTSEITE */
