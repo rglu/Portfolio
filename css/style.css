@@ -610,7 +610,7 @@ input:focus {
 
 .projects__padding {
     padding: 40px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .projects {
