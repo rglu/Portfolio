@@ -90,7 +90,9 @@ input:focus {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "tags description description description . ."
-    ". start start start start start";
+    "tags2 tags2 tags2 tags2 tags2 tags2"
+    ". start start start start start"
+    ". start2 start2 start2 start2 start2";
 }
 
 .text__title {
@@ -100,6 +102,11 @@ input:focus {
 
 .text__tags {
     grid-area: tags;
+    margin: 22px 0 0 0;
+}
+.text__tags {
+    grid-area: tags2;
+    display: none;
     margin: 22px 0 0 0;
 }
 
@@ -198,6 +205,12 @@ input:focus {
     grid-area: start;
     width: 277px;
     margin-top: 40px;
+}
+.projectssite__aboutme2 {
+    grid-area: start2;
+    display: none;
+    width: 277px;
+    margin-top: 0px;
 }
 
 /* .projects__aboutme {
@@ -842,12 +855,29 @@ input:focus {
         "title title title title title title"
         "tags tags tags tags tags tags"
         "description description description description description description"
-        "start start start start start start";
+        "tags2 tags2 tags2 tags2 tags2 tags2"
+        "start start start start start start"
+        "start2 start2 start2 start2 start2 start2";
         padding-top: 40px;
     }
 
     .start {
         margin: 40px auto 0 auto;
+    }
+
+    .text__tags {
+        display: none;
+    }
+    .text__tags2 {
+        display: block;
+        grid-area: tags2;
+    }
+
+    .projectssite__aboutme {
+        display: none;
+    }
+    .projectssite__aboutme2 {
+        display: block;
     }
 
     input {
