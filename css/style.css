@@ -850,6 +850,7 @@ input:focus {
 
     input {
         font-size: 150px;
+        height: 900px;
     }
 
     .sketch_01 {
