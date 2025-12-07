@@ -90,7 +90,6 @@ input:focus {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "tags description description description . ."
-    "tags2 tags2 tags2 tags2 tags2 tags2"
     ". start start start start start"
     ". start2 start2 start2 start2 start2";
 }
@@ -102,11 +101,6 @@ input:focus {
 
 .text__tags {
     grid-area: tags;
-    margin: 22px 0 0 0;
-}
-.text__tags {
-    grid-area: tags2;
-    display: none;
     margin: 22px 0 0 0;
 }
 
@@ -860,7 +854,6 @@ input:focus {
         "title title title title title title"
         "tags tags tags tags tags tags"
         "description description description description description description"
-        "tags2 tags2 tags2 tags2 tags2 tags2"
         "start start start start start start"
         "start2 start2 start2 start2 start2 start2";
         padding-top: 40px;
@@ -868,14 +861,6 @@ input:focus {
 
     .start {
         margin: 40px auto 0 auto;
-    }
-
-    .text__tags {
-        display: none;
-    }
-    .text__tags2 {
-        display: block;
-        grid-area: tags2;
     }
 
     .projectssite__aboutme {
