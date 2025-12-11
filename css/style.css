@@ -85,6 +85,7 @@ input:focus {
 .text {
     display: grid;
     overflow-wrap: anywhere;
+    hyphens: auto;
     padding: 80px 40px 0px 40px;
     gap: 0 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
